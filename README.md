@@ -23,18 +23,21 @@ Then, we would write the following `travel.yml` :
 commons:
   plan: <plan_repo_URL or plan_folder_abspath>
   config:
-    ...
+    name: 'commons'
+    description: 'A common package'
 
 microservices:
   a:
     plan: <plan_repo_URL or plan_folder_abspath>
     config:
-      ...
+      name: 'a'
+      description: 'The 1st package'
 
   b:
     plan: <plan_repo_URL or plan_folder_abspath>
     config:
-      ...
+      name: 'b'
+      description: 'The 2nd package'
 ```
 
 The `config` directive of this Travel plan accepts the following properties:
