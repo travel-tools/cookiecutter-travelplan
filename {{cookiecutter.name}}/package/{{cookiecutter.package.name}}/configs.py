@@ -90,5 +90,5 @@ cfg = merge_dicts(
     _get_config_dict(environment)
 )
 """
-Package configs
+Package config
 """

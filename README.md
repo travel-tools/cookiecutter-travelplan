@@ -39,7 +39,7 @@ microservices:
 
 The `config` directive of this Travel plan accepts the following properties:
 - `name`, the name of the Py 3 package root folder
-- `package`, a dict which accepts the following properties:
+- `package`, a map which accepts the following properties:
   - `author`, the name of the package author
   - `author_email`, the email of the package author
   - `description`, a short description of the package
