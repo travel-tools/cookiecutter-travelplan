@@ -40,14 +40,14 @@ def _get_resources(package: str) -> list[str]:
 
 # Package configuration
 setup(**{
-    'author': '{{cookiecutter.package.author}}',
-    'author_email': '{{cookiecutter.package.author_email}}',
-    'description': '{{cookiecutter.package.description}}',
+    'author': '{{cookiecutter.author}}',
+    'author_email': '{{cookiecutter.author_email}}',
+    'description': '{{cookiecutter.description}}',
     'install_requires': _get_requirements(),
-    'name': '{{cookiecutter.package.name}}',
+    'name': '{{cookiecutter.package_name}}',
     'packages': find_packages(),
     'package_data': {
-        '{{cookiecutter.package.name}}': _get_resources('{{cookiecutter.package.name}}'),
+        '{{cookiecutter.package_name}}': _get_resources('{{cookiecutter.package_name}}'),
         'tests': ['stubs/*']
     },
     'version': '0.1.0',

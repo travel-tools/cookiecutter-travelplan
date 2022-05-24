@@ -1,9 +1,7 @@
 {
   "name": "example",
-  "package": {
-    "author": "Federico Minutoli",
-    "author_email": "fede97.minutoli@gmail.com",
-    "description": "An example Python package",
-    "name": "{{ cookiecutter.name.lower().replace(' ', '_').replace('-', '_') }}"
-  }
+  "author": "Federico Minutoli",
+  "author_email": "fede97.minutoli@gmail.com",
+  "description": "An example Python package",
+  "package_name": "{{ cookiecutter.name.lower().replace(' ', '_').replace('-', '_') }}",
 }

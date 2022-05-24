@@ -7,8 +7,8 @@ from argparse import ArgumentParser
 from typing import Any
 
 # Module imports
-from {{cookiecutter.package.name}} import DIRPATH_config
-from {{cookiecutter.package.name}}.utils.util_dict import merge_dicts
+from {{cookiecutter.package_name}} import DIRPATH_config
+from {{cookiecutter.package_name}}.utils.util_dict import merge_dicts
 
 
 def _get_config_dict(env: str) -> dict[Any, Any]:
