@@ -1,9 +1,11 @@
-# do not perform conversions
+# No conversions of OS line endings
 * -text
 
-# ensure unix style line endings for specific files
+# Ensure UNIX-style line endings for some files
 *.sh text eol=lf
+
 tests
+
 __init__.py
 MANIFEST.in
 python.cfg
